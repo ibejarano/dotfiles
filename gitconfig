@@ -27,3 +27,6 @@
   path = ~/.gitconfig.local
 [diff]
   colorMoved = zebra
+[user]
+  name = Ignacio Bejarano
+  email = ignbejarano@gmail.com

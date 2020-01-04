@@ -54,6 +54,8 @@ augroup vimrcEx
 augroup END
 
 " ALE linting events
+let g:ale_linters = {'javascript': ['eslint']}
+let g:ale_fixers = {'javascript': ['prettier','eslint']}
 augroup ale
   autocmd!
 
