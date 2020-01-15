@@ -33,6 +33,27 @@ endif
 
 filetype plugin indent on
 
+"-------------------------------------------------------------------------------
+" Colors & Formatting
+"-------------------------------------------------------------------------------
+
+colorscheme OceanicNext
+set background=dark
+
+" Showcase comments in italics
+highlight Comment cterm=italic gui=italic
+
+" Easy tab navigation
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+
+" Find/replace
+vnoremap <C-r> "hy:%s/<C-r>h//g<left><left><left>
+
+let g:auto_save = 1  " enable AutoSave on Vim startup
+let g:auto_save_in_insert_mode = 0 " do not save in insert mode
+"-------------------------------------------------------------------------------
+
 augroup vimrcEx
   autocmd!
 

@@ -25,12 +25,18 @@ else
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 endif
 
+" Addons
 Plug 'junegunn/fzf.vim'
 Plug 'janko-m/vim-test'
-Plug 'pangloss/vim-javascript'
 Plug 'pbrisbin/vim-mkdir'
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 Plug 'vim-scripts/tComment'
+Plug 'othree/yajs.vim'
+Plug 'mxw/vim-jsx'
+Plug 'jiangmiao/auto-pairs'
+
+"Themes
+Plug 'mhartington/oceanic-next'
 
 if g:has_async
   Plug 'dense-analysis/ale'
